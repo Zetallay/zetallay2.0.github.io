@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	font-size: 55px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 345px;
+	text-align: center;	
+}
+main{
+	position: absolute;
+	top: 345px;
+	left: 200px;
+	right: 200px;
+	width: calc(100%-100px);s
+	height: calc(100%-355px);
+	border-bottom: 4px solid black;
+	
+}
+h1{
+	padding: 0;
+	color: white;
+
+}
+.navega{
+	background-color: black;
+
+}
+.menu{
+	position: all;
+	font-size: 35px;
+	list-style: none;
+	display: inline-block;
+	margin: 10px;
+    border: 5px solid silver;
+    padding: 1px;
+}
+.menu a{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+.navega a:link {
+color: white;
+}
+.navega a:visited {
+
+}
+.navega a:hover {
+background-color: rgba(212, 214, 214,0.4) ;
+}
+.motivacion{
+	text-align: center;
+	font-size: 3em;
+}
+iframe{
+	;
+}
+
+.subtitulo{
+	text-align: center;
+	font-size: 3em;
+}
+.video{
+	text-align: center;
+}
+#particles-js{
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-color: black;
+}
+
